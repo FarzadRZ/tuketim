@@ -45,7 +45,7 @@ export default {
   },
   mounted() {
     // Setup Websocket Connection
-    this.connection = new WebSocket("ws://155.138.149.136:5000/consumption/");
+    this.connection = new WebSocket("ws://localhost:5000/consumption/");
     console.log("Starting connection to WebSocket Server");
 
     // Connection Opened
